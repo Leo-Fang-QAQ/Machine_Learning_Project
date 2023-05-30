@@ -51,7 +51,7 @@ if uploaded_file is not None:
         parser.add_argument(
             '--checkpoint',
             type=str,
-            default='./weights/paprika.pt',
+            default='./weights/face_paint_512_v2.pt',
         )
         parser.add_argument(
             '--input_dir', 
