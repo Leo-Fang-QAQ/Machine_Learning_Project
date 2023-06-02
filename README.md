@@ -8,4 +8,4 @@
 
 #If you want to run our project, you can try "streamlit run app.py" , "python test.py" or "python video_anime.py", and the arguments are optional.
 
-#Also,we make it more for the animation of face pictures, you can try to run "demo.ipynb", and you can directly see the comparison between the origin picture and the animated picture.
+#Also,we make it more for the animation of face pictures, you can try to run "demo.ipynb", thus you can directly see the comparison between the origin picture and the animated picture.
