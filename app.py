@@ -15,8 +15,8 @@ torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark = False
 torch.backends.cudnn.deterministic = True
 
-st.markdown('# 在线动漫化网站')
-uploaded_file = st.file_uploader("请选择需要动漫化的图片",type="jpg")
+st.markdown('# Animation of Pictures')
+uploaded_file = st.file_uploader("Please select the picture to be animated(JPG format):",type="jpg")
 
 if uploaded_file is not None:
     in_image = Image.open(uploaded_file).convert("RGB")
@@ -85,7 +85,7 @@ if uploaded_file is not None:
 
     col1, col2 = st.columns(2)
     with col1:
-        st.image(uploaded_file, caption='原图片')
+        st.image(uploaded_file, caption='Original picture')
     with col2:
-        st.image("x.jpg", caption='动漫化图片')
+        st.image("x.jpg", caption='The picture animated')
 
